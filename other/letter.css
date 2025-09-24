@@ -73,6 +73,12 @@ input {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
+input::placeholder {
+  color: #383838;
+}
+input::-webkit-input-placeholder{
+  color: #383838;
+}
 
 .container {
   display: flex; 
