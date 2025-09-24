@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>eclipse</title>
+	<script src="./other/index.js" defer> </script>
+	<link rel="stylesheet" href="./other/index.css" >
+
+</head>
+
+<body>
+	<div class="wrap-all">
+		<div class="left">
+			<div class="co-wrapper">
+				<div style="text-align: center;">
+				<label for="eclipse-select"></label>
+				<select id="eclipse-select">
+				    <option value="">식</option>
+				    <option value="Solar">일식</option>
+				    <option value="Lunar">월식</option>
+				</select>
+				<label for="type-select"></label>
+				<select id="type-select">
+				    <option value="">종류</option>
+				</select>
+				</div>
+
+			<p class="sansFont500 t-shadow "
+			id="eclipse-description-display"></p>
+			<p class="sansFont700 t-shadow" style="font-size: 2rem; margin-bottom: 100px;"
+			id="type-description-display"></p> 
+			</div>
+
+		<div class="button-wrapper">
+			<a href="./other/letter.html" class="button">편지 쓰기</a>
+		</div>
+	</div>
+
+	<div class="right">
+		<p class="sansFont300 date" id="date-display"></p>
+		<img id="eclipse-gif" src="" alt="">
+
+	</div>
+</div>
+
+</body>
+</html>

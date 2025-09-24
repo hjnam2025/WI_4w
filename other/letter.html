@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>eclipse-letter</title>
+	<script src="./letter.js" defer> </script>
+	<link rel="stylesheet" href="./letter.css" >
+</head>
+<body>
+	<div class="container">
+		<input id="addressee" type="text" placeholder="수신인">
+
+		<div class="info-display">
+     
+      <p id="selected-date"></p>
+      <p id="selected-name"></p>
+    </div>
+
+		<input id="body" type="text" placeholder="보러가자">
+
+		<input id="sender" type="text" placeholder="발신인">
+
+
+	</div>
+
+	<div class="l-add" id="monitor1" style="font-size: 2rem;"></div>
+	<div class="l-send" id="monitor2" style="font-size: 2rem;"></div>
+	<div class="l-body" id="monitor3" style="font-size: 2rem;"></div>
+
+
+	<div class="wrap-letter">
+	</div>
+
+</body>
+</html>
